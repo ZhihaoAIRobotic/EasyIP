@@ -1,0 +1,6 @@
+/* Fix for Semi Design's mozselection issue */
+.semi-codeHighlight-defaultTheme pre[class*='language-']::moz-selection,
+.semi-codeHighlight-defaultTheme code[class*='language-']::moz-selection {
+  text-shadow: none;
+  background: #b3d4fc;
+}
